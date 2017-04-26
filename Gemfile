@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'nexmo'
+gem 'pg'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-semantic'
@@ -20,7 +21,6 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'byebug', platform: :mri
   gem 'dotenv-rails'
 end
