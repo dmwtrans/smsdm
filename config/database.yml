@@ -6,18 +6,27 @@
 #
 development:
   adapter: postgresql
-  database: dm_sms_development
-  pool: 5
-  timeout: 5000
+  encoding: utf8
+  database: d2ggamvr8msj74
+  username: gqgkgzhihnuzuw
+  password: 47d061d0865601e2170a7b6cbfac5274e7f76a937326ad524f0ab6990aeab693
+  host: ec2-23-21-96-70.compute-1.amazonaws.com
+  port: 5432
 
 test:
   adapter: postgresql
-  database: dm_sms_test
-  pool: 5
-  timeout: 5000
+  encoding: utf8
+  database: d2ggamvr8msj74
+  username: gqgkgzhihnuzuw
+  password: 47d061d0865601e2170a7b6cbfac5274e7f76a937326ad524f0ab6990aeab693
+  host: ec2-23-21-96-70.compute-1.amazonaws.com
+  port: 5432
   
 production:
   adapter: postgresql
-  database: dm_sms_production
-  pool: 5
-  timeout: 5000
+  encoding: utf8
+  database: d2ggamvr8msj74
+  username: gqgkgzhihnuzuw
+  password: 47d061d0865601e2170a7b6cbfac5274e7f76a937326ad524f0ab6990aeab693
+  host: ec2-23-21-96-70.compute-1.amazonaws.com
+  port: 5432
