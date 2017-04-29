@@ -17,7 +17,6 @@ source 'https://rails-assets.org' do
 end
 
 group :production do
-  gem 'pg'
 end
 
 group :development, :test do
