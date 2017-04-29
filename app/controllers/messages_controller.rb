@@ -5,9 +5,7 @@ class MessagesController < ApplicationController
     @messages = Message.recent_by_number.by_date
   end
 
-  def show
-    @messages = Message.for_number(params[:id])
-  end
+
 
   def create
     message = Message.new(clean_params)
