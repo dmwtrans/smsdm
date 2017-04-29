@@ -7,7 +7,6 @@ class MessagesController < ApplicationController
 
   def show
     @messages = Message.for_number(params[:id])
-    @new_message = Message.new(number: params[:id])
   end
 
   def create
