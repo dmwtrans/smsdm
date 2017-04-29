@@ -7,26 +7,26 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: d2ggamvr8msj74
-  username: gqgkgzhihnuzuw
-  password: 47d061d0865601e2170a7b6cbfac5274e7f76a937326ad524f0ab6990aeab693
-  host: ec2-23-21-96-70.compute-1.amazonaws.com
+  database: d6msft6gqqq6gn
+  username: ndgtyjmvrwtpaq
+  password: 0508334748901019773fe2651b96a23563752252ec778af90eeb53115e19af8
+  host: ec2-54-235-181-120.compute-1.amazonaws.com
   port: 5432
 
 test:
   adapter: postgresql
   encoding: utf8
-  database: d2ggamvr8msj74
-  username: gqgkgzhihnuzuw
-  password: 47d061d0865601e2170a7b6cbfac5274e7f76a937326ad524f0ab6990aeab693
-  host: ec2-23-21-96-70.compute-1.amazonaws.com
+  database: d6msft6gqqq6gn
+  username: ndgtyjmvrwtpaq
+  password: 0508334748901019773fe2651b96a23563752252ec778af90eeb53115e19af8
+  host: ec2-54-235-181-120.compute-1.amazonaws.com
   port: 5432
   
 production:
   adapter: postgresql
   encoding: utf8
-  database: d2ggamvr8msj74
-  username: gqgkgzhihnuzuw
-  password: 47d061d0865601e2170a7b6cbfac5274e7f76a937326ad524f0ab6990aeab693
-  host: ec2-23-21-96-70.compute-1.amazonaws.com
+  database: d6msft6gqqq6gn
+  username: ndgtyjmvrwtpaq
+  password: 0508334748901019773fe2651b96a23563752252ec778af90eeb53115e19af8
+  host: ec2-54-235-181-120.compute-1.amazonaws.com
   port: 5432
